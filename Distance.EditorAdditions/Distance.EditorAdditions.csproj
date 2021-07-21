@@ -93,11 +93,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>QuickSelect.tt</DependentUpon>
     </Compile>
-    <Compile Include="Editor\Tools\QuickSelect\Generated\QuickSelect1.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>QuickSelect.tt</DependentUpon>
-    </Compile>
     <Compile Include="Editor\Tools\QuickSelect\LoadSelectionToolBase.cs" />
     <Compile Include="Editor\Tools\QuickSelect\SaveSelectionToolBase.cs" />
     <Compile Include="Entry.cs" />
@@ -133,7 +128,7 @@
     <Content Include="Editor\Tools\QuickSelect\Generated\.gitignore" />
     <Content Include="Editor\Tools\QuickSelect\Generated\QuickSelect.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>QuickSelect1.cs</LastGenOutput>
+      <LastGenOutput>QuickSelect.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>

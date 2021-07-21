@@ -11,7 +11,7 @@
 #pragma warning disable IDE1006
 using Centrifuge.Distance.EditorTools.Attributes;
 
-namespace Distance.EditorAdditions.Editor.Tools.QuickSelect 
+namespace Distance.EditorAdditions.Editor.Tools.QuickSelect
 {
 <# for (int memory = 1; memory <= 9; memory++) { #>
 	#region Quick Selection #<#= memory #>
