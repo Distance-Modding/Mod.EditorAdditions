@@ -93,6 +93,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>QuickSelect.tt</DependentUpon>
     </Compile>
+    <Compile Include="Editor\Tools\QuickSelect\Generated\QuickSelect1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuickSelect.tt</DependentUpon>
+    </Compile>
     <Compile Include="Editor\Tools\QuickSelect\LoadSelectionToolBase.cs" />
     <Compile Include="Editor\Tools\QuickSelect\SaveSelectionToolBase.cs" />
     <Compile Include="Entry.cs" />
@@ -134,6 +139,7 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
+  <Import Project="..\Common.Json\Common.Json.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <!-- 15.0 is for VS2017, adjust if necessary -->
