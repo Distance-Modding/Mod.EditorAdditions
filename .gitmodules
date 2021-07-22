@@ -1,3 +1,6 @@
 [submodule "Common.Json"]
 	path = Common.Json
 	url = https://github.com/Distance-Modding/Common.Json.git
+[submodule "Tool.BuildTargets"]
+	path = Tool.BuildTargets
+	url = https://github.com/Distance-Modding/Tool.BuildTargets
