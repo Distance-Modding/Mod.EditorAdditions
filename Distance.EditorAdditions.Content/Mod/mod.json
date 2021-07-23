@@ -1,9 +1,9 @@
 ﻿{
-	"FriendlyName": "Mod Template",
-	"Author": "You",
-	"Contact": "N/A",
-	"ModuleFileName": "Mod.Template.dll",
-	"Dependencies": [],
+	"FriendlyName": "Editor Additions",
+	"Description": "Enhances the level editor with new features.",
+	"Author": "Reherc",
+	"Contact": "Github: @REHERC",
+	"ModuleFileName": "Distance.EditorAdditions.dll",
 	"RequiredGSLs": [
 		"com.github.reherc/Centrifuge.Distance"
 	],
