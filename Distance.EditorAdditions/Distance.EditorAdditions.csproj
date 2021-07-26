@@ -122,6 +122,7 @@
     <Compile Include="TrackNodeColors.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Distance.EditorAdditions.targets" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -148,6 +149,5 @@
     <TransformOutOfDateOnly>false</TransformOutOfDateOnly>
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\TextTemplating\Microsoft.TextTemplating.targets" />
-	<Import Project="$(SolutionDir)Tool.BuildTargets\Distance.Modding.props"/>
-	<Import Project="$(SolutionDir)Tool.BuildTargets\Distance.Modding.targets"/>
+  <Import Project="$(SolutionDir)Tool.BuildTargets\Distance.Modding.targets" />
 </Project>
